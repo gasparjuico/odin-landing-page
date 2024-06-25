@@ -11,13 +11,15 @@ body {
     font-family: Roboto,'Helvetica Neue', sans-serif;
 }
 
-/* section one */
+/* SECTION ONE */
 
 .section-one {
     display: flex;
     flex-direction: column;
     background: #1F2937;
 }
+
+/* HEADER */
 
 .header,
 .hero {
@@ -52,7 +54,7 @@ ul{
     color: #E5E7EB;
 }
 
-/* hero */
+/* HERO */
 
 .hero{
     margin-top: 32px;
@@ -76,7 +78,7 @@ ul{
     margin-bottom: 4px;
 }
 
-button {
+.sign-up {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 6px 24px;
@@ -99,7 +101,7 @@ button {
     color: #F9FAF8;
 }
 
-/* section two */
+/* SECTION TWO */
 
 .section-two {
     display: flex;
@@ -131,7 +133,7 @@ button {
     text-align: center;
 }
 
-/* section three */
+/* SECTION THREE */
 
 .section-three {
     display: flex;
@@ -151,4 +153,26 @@ button {
     align-self: flex-end;
     font-size: large;
     font-weight: 600;
+}
+
+/* SECTION FOUR */
+
+.section-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-container{
+    background-color: #3882F6;
+    display: flex;
+}
+
+.sign-up-two {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 24px;
+    border: solid #F9FAF8;
+    border-radius: 5px;
+    font-weight: bold;
 }
