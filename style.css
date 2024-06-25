@@ -1,8 +1,8 @@
-/* *,
+*,
 *::before,
 *::after, {
     box-sizing: border-box
-} */
+}
 
 body {
     display: flex;
@@ -10,6 +10,8 @@ body {
     margin: 0;
     font-family: Roboto,'Helvetica Neue', sans-serif;
 }
+
+/* section one */
 
 .section-one {
     display: flex;
@@ -50,7 +52,7 @@ ul{
     color: #E5E7EB;
 }
 
-/* hero styles */
+/* hero */
 
 .hero{
     margin-top: 32px;
@@ -79,7 +81,7 @@ button {
     color: #F9FAF8;
     padding: 6px 24px;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     font-weight: bold;
 }
 
@@ -97,3 +99,34 @@ button {
     color: #F9FAF8;
 }
 
+/* section two */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.info {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* could add another class to divs for text */
+    text-align: center;
+}
