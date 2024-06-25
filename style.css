@@ -1,6 +1,6 @@
 *,
 *::before,
-*::after, {
+*::after {
     box-sizing: border-box
 }
 
@@ -127,6 +127,28 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* could add another class to divs for text */
+    /* could add another class on html div for text */
     text-align: center;
+}
+
+/* section three */
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quoted-from{
+    align-self: flex-end;
+    font-size: large;
+    font-weight: 600;
 }
