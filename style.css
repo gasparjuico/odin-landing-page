@@ -4,9 +4,11 @@
     box-sizing: border-box
 }
 
+html,
 body {
     display: flex;
     flex-direction: column;
+    height: 100%;
     margin: 0;
     font-family: Roboto,'Helvetica Neue', sans-serif;
 }
@@ -24,6 +26,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -40,7 +43,9 @@ a {
 
 .header-links {
     display: flex;
-    gap:48px;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 14px;
 }
 
 ul{
@@ -55,8 +60,9 @@ ul{
 
 .hero{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .hero-content {
@@ -112,6 +118,7 @@ ul{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding-bottom: 45px;
 }
 
 .info-container {
@@ -151,6 +158,7 @@ ul{
     align-self: flex-end;
     font-size: large;
     font-weight: 600;
+    padding-right: 40px;
 }
 
 /* SECTION FOUR */
@@ -163,14 +171,28 @@ ul{
 
 .cta-container{
     background-color: #3882F6;
+    border-radius: 5px;
     display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.cta-title,
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-title {
+    font-size: larger;
+    font-weight: 700;
 }
 
 .sign-up-two {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 6px 24px;
-    border: solid  #F9FAF8;
+    border: solid 2px #F9FAF8;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -183,4 +205,31 @@ ul{
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+/* SPACING */
+
+.header {
+    padding: 10px 180px 0;
+}
+
+.hero,
+.section-four {
+    flex: 1;
+    padding: 90px 180px;
+}
+
+.section-three{
+    flex: 1;
+    padding: 90px 220px;
+}
+
+.section-two {
+    flex: 1;
+    padding: 45px 180px 90px;
+}
+
+.footer-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
