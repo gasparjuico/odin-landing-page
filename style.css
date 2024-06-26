@@ -21,13 +21,10 @@ body {
 
 /* HEADER */
 
-.header,
-.hero {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
-    margin: 0px 96px;
 }
 
 a {
@@ -57,8 +54,9 @@ ul{
 /* HERO */
 
 .hero{
-    margin-top: 32px;
-    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero-content {
