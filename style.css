@@ -119,6 +119,7 @@ ul{
     font-weight: bolder;
     color: #1F2937;
     padding-bottom: 45px;
+    text-align: center;
 }
 
 .info-container {
@@ -176,6 +177,7 @@ ul{
     flex: 1;
     justify-content: space-around;
     padding: 30px;
+    flex-wrap: wrap;
 }
 
 .cta-title,
@@ -230,6 +232,6 @@ ul{
 }
 
 .footer-text{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
