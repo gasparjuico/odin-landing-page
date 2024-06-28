@@ -79,7 +79,7 @@ ul{
 .subtext{
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 
 .sign-up {
@@ -122,10 +122,10 @@ ul{
 }
 
 .info-container {
+    align-self: stretch;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 50px;
 }
 
 .info {
