@@ -60,6 +60,7 @@ ul{
 
 .hero{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
@@ -68,6 +69,17 @@ ul{
 .hero-content {
     flex: 1;
     flex-wrap: wrap;
+}
+
+.sample-image-container {
+    flex: 1;
+}
+
+.sample-image {
+   width: 100%;
+   height: 100%;
+   min-width: 300px;
+   min-height: auto;
 }
 
 .main-title {
@@ -89,20 +101,6 @@ ul{
     border: none;
     border-radius: 5px;
     font-weight: bold;
-}
-
-.sample-image {
-    flex: 1;
-    background: grey;
-    align-self: stretch;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sample-image-text {
-    font-size: 18px;
-    color: #F9FAF8;
 }
 
 /* SECTION TWO */
